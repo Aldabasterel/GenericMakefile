@@ -10,7 +10,7 @@ SRC_PATH = .
 # Space-separated pkg-config libraries used by this project
 LIBS =
 # General compiler flags
-COMPILE_FLAGS = -std=c99 -Werror -Wall -Wextra -g -trigraphs -pedantic-errors
+COMPILE_FLAGS = -std=c11 -Werror -Wall -Wextra -g -trigraphs -pedantic-errors
 # Additional release-specific flags
 RCOMPILE_FLAGS = -D NDEBUG
 # Additional debug-specific flags
