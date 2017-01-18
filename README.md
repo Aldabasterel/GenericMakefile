@@ -27,6 +27,7 @@ If the makefile is not used in a git repository, or is in a repository with no t
 
 #Limitations:
 * Assumes GNU make.
+* Assumes clang.
 * Timing does not work correctly with MacOS. See issue #6 for a workaround patch that allows timing in seconds on Mac.
 * Doesn't really support multiple types of source files in the same project.
 * No easy way to exclude files from the build. You can either change the
