@@ -199,6 +199,7 @@ clean:
 doc:
 	@echo "Generating documentation"
 	@doxygen Doxyfile
+	@(cd latex && make)
 
 # Main rule, checks the executable and symlinks to the output
 all: $(BIN_PATH)/$(BIN_NAME) doc
